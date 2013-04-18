@@ -42,7 +42,7 @@ package sudoku;
 
         private static void solve(Grid grid,List<Grid> solutions) {
             // Return if there is already more than two solution
-            if solutions.size() >= 2 {
+            if (solutions.size() >= 2) {
                 return;
             }
 
